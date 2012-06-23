@@ -7,6 +7,8 @@
 # Reads a languages file, does some parsing, writes an output file.
 # Numbers the output file starting from 0. i.e. 0, 1, 2, etc.
 # Then adds more text to source languages file.
+# 
+# Targets src.txt to hide 'working' file from git repository.
 
 def main():
 	try:
